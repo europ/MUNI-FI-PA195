@@ -5,4 +5,5 @@ os: linux
 sudo: false
 
 script:
-  - true
+  - make travis-build -C doc
+  - make travis-build -C pres
