@@ -1,0 +1,144 @@
+\documentclass[]{beamer}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{changepage}
+\usetheme[
+  workplace=fi,
+]{MU}
+
+\graphicspath{{../}}
+
+\definecolor{urlcolor}{RGB}{6, 69, 173}
+\definecolor{imageBorderColor}{RGB}{91, 91, 91}
+
+\fboxsep=0pt
+\fboxrule=1pt
+
+\newcommand{\TODO}{\textbf{\textcolor{red}{TODO}}} % red bold TODO
+
+\begin{document}
+
+\setbeamertemplate{frametitle}[default][center]
+\setlength\columnsep{10pt}
+
+\title[PA195]{PA195}
+\subtitle[Term Project]{Term Project}
+\author[A.\,Tóth, M.\,Mrnuštík, O.\,Novák, T.\,Do\ Long]{
+  \begin{scriptsize}
+    \begin{tabular}{r@{\hspace{2mm}}l}
+      Adrián Tóth    & {\normalfont \href{mailto:491322@mail.muni.cz}{\color{urlcolor}{491322@mail.muni.cz}}}\\[1mm]
+      Ondřej Novák   & {\normalfont \href{mailto:445494@mail.muni.cz}{\color{urlcolor}{445494@mail.muni.cz}}}\\[1mm]
+      Thanh Do Long  & {\normalfont \href{mailto:xdolon@mail.muni.cz}{\color{urlcolor}{xdolon@mail.muni.cz}}}\\[1mm]
+      Michal Mrnuštík& {\normalfont \href{mailto:487570@mail.muni.cz}{\color{urlcolor}{487570@mail.muni.cz}}}\\[1mm]
+    \end{tabular}
+  \end{scriptsize}
+}
+\institute[FI MU]{Faculty of Informatics, Masaryk University}
+\date{\today}
+\subject{Presentation Subject}
+\keywords{the, presentation, keywords}
+
+\begin{frame}[plain]
+  \begin{center}
+    \maketitle
+  \end{center}
+\end{frame}
+
+\begin{frame}{Table of Contents}
+  \setlength{\columnsep}{-25mm}
+  \begin{adjustwidth}{10mm}{-10mm}
+    \begin{multicols}{2}
+      \tableofcontents
+
+      \columnbreak
+      \hfill\\[7mm]
+      \begin{figure}[H]
+        \includegraphics[width=.35\textwidth,height=.35\textheight,keepaspectratio]{img/content.pdf}
+      \end{figure}
+    \end{multicols}
+  \end{adjustwidth}
+\end{frame}
+
+
+%##############################################################################
+
+
+\section[Introduction]{Introduction}
+
+  \subsection{About}
+
+    \begin{frame}{About}
+      \setlength{\columnsep}{-125mm}
+      \begin{adjustwidth}{20mm}{-25mm}
+        \begin{multicols}{2}
+          \TODO
+
+          \columnbreak
+
+          \begin{figure}[H]
+            \includegraphics[width=.25\textwidth,height=.25\textheight,keepaspectratio]{img/info.pdf}
+          \end{figure}
+        \end{multicols}
+      \end{adjustwidth}
+    \end{frame}
+
+  \subsection{Idea}
+
+    \begin{frame}{Idea}
+      \setlength{\columnsep}{-125mm}
+      \begin{adjustwidth}{20mm}{-25mm}
+        \begin{multicols}{2}
+          \TODO
+
+          \columnbreak
+
+          \begin{figure}[H]
+            \includegraphics[width=.35\textwidth,height=.35\textheight,keepaspectratio]{img/idea.pdf}
+          \end{figure}
+        \end{multicols}
+      \end{adjustwidth}
+    \end{frame}
+
+\section[Implementation]{Implementation}
+
+  \subsection{Prerequisites \& Requirements}
+
+    \begin{frame}{Prerequisites \& Requirements}
+      \TODO
+    \end{frame}
+
+  \subsection{Used Tools \& Technologies}
+
+    \begin{frame}{Used Tools \& Technologies}
+      \TODO
+    \end{frame}
+
+\section[Summary]{Summary}
+
+  \subsection{Results}
+
+    \begin{frame}{Results}
+      \TODO
+    \end{frame}
+
+  \subsection{Conclusion}
+
+    \begin{frame}{Conclusion}
+      \TODO
+    \end{frame}
+
+
+%##############################################################################
+
+
+\begin{frame}[plain]
+  \vspace{20mm}
+  \centerline{Thank you for your attention!}
+\end{frame}
+
+\end{document}
