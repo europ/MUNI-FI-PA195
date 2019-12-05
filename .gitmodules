@@ -1,0 +1,3 @@
+[submodule "src/ReactPlaygroundFirebaseRealtimeDatabase"]
+	path = src/ReactPlaygroundFirebaseRealtimeDatabase
+	url = https://github.com/mrnustik/ReactPlaygroundFirebaseRealtimeDatabase.git
